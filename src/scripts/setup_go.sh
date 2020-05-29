@@ -16,7 +16,7 @@ cd /usr/local
 sudo tar zxvf /usr/local/go.tar.gz
 sudo rm /usr/local/go.tar.gz
 
-if [ !-d $HOME/go ]
+if [ ! -d $HOME/go ]
 then
 	mkdir $HOME/go
 fi
